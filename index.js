@@ -82,8 +82,9 @@ cars.push(oggetto);
 console.log(cars);
 
 for (let i = 0; i < cars.length; i++) {
-  cars[i].trims.splice(cars[i].trims.length - 1, 1);
+  cars[i].trims.pop();
 }
+
 console.log(cars);
 
 /* ESERCIZIO 7
