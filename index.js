@@ -71,7 +71,7 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
-const oggetto = {
+/*   const oggetto = {
   brand: "Fiat",
   model: "Punto",
   color: "Red",
@@ -80,6 +80,8 @@ const oggetto = {
 
 cars.push(oggetto);
 console.log(cars);
+
+*/
 
 for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
@@ -130,7 +132,7 @@ while (i < numericArray.length) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = [g, n, u, z, d];
+const charactersArray = ["g", "n", "u", "z", "d"];
 const numero = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
