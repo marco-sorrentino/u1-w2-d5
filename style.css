@@ -69,12 +69,12 @@ nav .spanav a {
   width: 95%;
   margin: 25px auto;
   background-image: url(./assets/bg-image.png);
-  padding: 80px 0px;
+  padding: 65px 0px;
   font-weight: 800;
 }
 
 .giftText {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 2rem;
 }
 
