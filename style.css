@@ -27,6 +27,7 @@ nav {
   color: white;
   padding: 10px 0px;
   width: 100%;
+  font-family: sans-serif;
 }
 
 .spanav {
@@ -41,6 +42,7 @@ span {
 nav .spanav a {
   color: white;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 /* ORANGE DIV */
@@ -54,6 +56,11 @@ nav .spanav a {
   padding: 10px 0px;
 }
 
+.orangeDiv p {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
 /* HOLIDAY DIV */
 
 .holidayGift {
@@ -63,6 +70,7 @@ nav .spanav a {
   margin: 25px auto;
   background-image: url(./assets/bg-image.png);
   padding: 80px 0px;
+  font-weight: 800;
 }
 
 .giftText {
@@ -85,12 +93,15 @@ nav .spanav a {
 .whiteTextBg {
   padding: 10px 0px 10px 10px;
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 #blutext {
   color: #205969;
-  margin-left: 15px;
+  margin-left: 20px;
+  font-weight: 550;
+  font-size: 1rem;
+  margin-top: 3px;
 }
 
 .cards {
@@ -103,7 +114,8 @@ nav .spanav a {
   box-shadow: 5px 4px 15px -1px rgba(0, 0, 0, 0.25);
   border-radius: 34px;
   width: 284px;
-  height: 330px;
+  height: 325px;
+  object-fit: cover;
 }
 
 .whitebg {
@@ -127,7 +139,7 @@ nav .spanav a {
   text-align: center;
   justify-content: center;
   margin-top: 10px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .oculusbg .textunder a {

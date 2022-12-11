@@ -11,14 +11,14 @@ REGOLE
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
 
-console.log(pets);
-
-//// OR
-
 console.log(pets[0]);
 console.log(pets[1]);
 console.log(pets[2]);
 console.log(pets[3]);
+
+//// OR
+
+console.log(pets);
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
@@ -144,20 +144,68 @@ const numero = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
+    case "a":
+      numero.push(1);
+      break;
+    case "b":
+      numero.push(2);
+      break;
+    case "c":
+      numero.push(3);
+      break;
+    case "d":
+      numero.push(4);
+      break;
+    case "e":
+      numero.push(5);
+      break;
+    case "f":
+      numero.push(6);
+      break;
     case "g":
       numero.push(7);
+      break;
+    case "h":
+      numero.push(8);
+      break;
+    case "i":
+      numero.push(9);
+      break;
+    case "l":
+      numero.push(10);
+      break;
+    case "m":
+      numero.push(11);
       break;
     case "n":
       numero.push(12);
       break;
+    case "o":
+      numero.push(13);
+      break;
+    case "p":
+      numero.push(14);
+      break;
+    case "q":
+      numero.push(15);
+      break;
+    case "r":
+      numero.push(16);
+      break;
+    case "s":
+      numero.push(17);
+      break;
+    case "t":
+      numero.push(18);
+      break;
     case "u":
       numero.push(19);
       break;
+    case "v":
+      numero.push(20);
+      break;
     case "z":
       numero.push(21);
-      break;
-    case "d":
-      numero.push(4);
       break;
   }
 }
